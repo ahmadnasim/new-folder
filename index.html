@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>PhotoBook</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap-css/bootstrap.min.css">
+	<!-- end -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main class="myphotoshot">
+<!-- header -->
+<header>
+<nav class="container-fluid">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 left-header">
+	 <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeMenu()" title="Close Overlay">×</span>
+        <div class="overlay-content" id="header-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#icons">Icons</a></li>
+            <li><a href="#advantage">Advantage</a></li>
+            <li><a href="#solution-card">Solutions Card</a></li>
+            <li><a href="#testinomial">Testinomials</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
+        </div>
+      </div>
+<button class="openBtn button side-header" onclick="openMenu()">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+<div class="nav-logo left-contain">
+	<a href="#" class="brand-logo"><img src="assets/head-logo.png" alt="header-logo"></a>
+</div>	
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12 right-header">
+<div class="head-number">
+	<a class="fnt-16 family-sans-l" href="tel:+11 235 813 2134">+11 235 813 2134</a>
+</div>
+	<img src="assets/header-signin.png" alt="sign-in">
+</div>
+</div>
+</div>
+</nav>
+</header>
+<!-- end -->
+<!-- Create your own photoatory -->
+<section class="container-fluid hero-main" id="home">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="hero-content">
+	<h1 class="fnt-60 family-sans-xt">CREATE YOUR OWN PHOTOSTORY</h1>
+	<p class="fnt-24 family-sans-l">Make your photobook online</p>
+<button class="family-sans-t">
+	<a href="#">MAKE YOUR PHOTOBOOK</a>
+</button>
+</div>
+</div>	
+</div>
+</div>
+</section>
+<!-- end -->
+<!-- icons sec -->
+<section class="container-fluid" id="icons">
+<div class="container">
+<div class="row">
+<div class="col-12 hr-dashed">
+<div class="download-icon">
+<div class="dwnld-icn ">
+	<img src="assets/icon-one.png" alt="icon-first">	
+</div>
+	<p class="fnt-24 family-sans-l">Download <br>photos</p>
+</div>
+<div><hr></div>
+<!-- two -->
+<div class="download-icon">
+<div class="dwnld-icn ">
+	<img src="assets/icon-two.png" alt="icon-second">	
+</div>
+	<p class="fnt-24 family-sans-l">Design your <br>photobook</p>
+</div>
+<!-- three -->
+<div class="download-icon">
+<div class="dwnld-icn dwnld-three">
+	<img src="assets/icon-three.png" alt="icon-third">	
+</div>
+	<p class="fnt-24 family-sans-l">Pay <br>for service</p>
+</div>
+<!-- four -->
+<div class="download-icon">
+<div class="dwnld-icn ">
+	<img src="assets/icon-four.png" alt="icon-fourth">	
+</div>
+	<p class="fnt-24 family-sans-l">Get your <br>photobook</p>
+</div>
+<!-- end -->
+</div>	
+</div>
+</div>	
+</section>
+<!-- icons end -->
+<!-- Advantage -->
+<section class="container-fluid light-bg" id="advantage">
+<div class="container">
+<div class="row">
+<div class="col-12">
+	<h2 class="fnt-60 family-sans-xt">ADVANTAGE</h2>	
+</div>	
+</div>
+<div class="row rwo-two">
+<!-- one -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="circle-img left_to_right" data-aos="fade-down">
+	<a href="#">
+	<div class="img"> 
+	<img src="assets/social-circle.png" alt="social-icons">
+	</div>
+	<div class="back-info">
+		<h3 class="fnt-24 family-sans-l">Import photos <br>from your social networks</h3>
+		<p class="fnt-16 family-sans-l">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+		sed do eiusmod tempor incididunt modi tempora
+		</p>
+	</div>
+	</a>
+</div>
+<div class="social-hdng">
+	<h3 class="fnt-24 family-sans-l">Import photos <br>from your social networks</h3>
+	<p class="fnt-16 family-sans-l">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+	sed do eiusmod tempor incididunt modi tempora
+	</p>
+</div>	
+</div>
+<!-- two -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="circle-img left_to_right" data-aos="slide-down">
+	<a href="#">
+	<div class="img"> 
+	<img src="assets/cat.png" alt="cat-image">
+	</div>
+	<div class="back-info">
+		<h3 class="fnt-24 family-sans-l">Photo editing</h3>
+		<p class="fnt-16 family-sans-l">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ora incidunt ut labore.
+		</p>
+	</div>
+	</a>
+</div>
+<div class="social-hdng">
+	<h3 class="fnt-24 family-sans-l">Photo editing</h3>
+	<p class="fnt-16 family-sans-l width">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	Ora incidunt ut labore.
+	</p>
+</div>	
+</div>
+<!-- three -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="circle-img left_to_right" data-aos="fade-down">
+	<a href="#">
+	<div class="img">
+	<img src="assets/templates.png" alt="templates">
+	</div>
+	<div class="back-info">
+		<h3 class="fnt-24 family-sans-l">Templates</h3>
+		<p class="fnt-16 family-sans-l">
+		Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, 
+		nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.
+		</p>
+	</div>
+	</a>
+</div>
+<div class="social-hdng">
+	<h3 class="fnt-24 family-sans-l">Templates</h3>
+	<p class="fnt-16 family-sans-l">
+	Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, 
+	nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.
+	</p>
+</div>	
+</div>
+<!--end-col-lg-4 -->
+</div>
+<div class="row row-three">
+<div class="col-12 social-butn">
+<button class="family-sans-t">
+	<a href="#">MAKE YOUR PHOTOBOOK</a>
+</button>
+</div>
+</div>	
+</div>	
+</section>
+<!-- end -->
+<!-- Solutions-card -->
+<section class="container-fluid solution-card" id="solution-card">
+<div class="container">
+<div class="row">
+<div class="col-12">
+	<h5 class="fnt-60 family-sans-xt">READY SOLUTIONS</h5>
+</div>
+</div>
+<div class="row">
+<!-- first-card -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="light-book-card" data-aos="fade-down">
+<div class="card-heding">
+	<h6 class="fnt-36 family-sans-r">LIGHTBOOK</h6>
+</div>
+<div class="card-inner-text">
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">15x 10 cm</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">12 pages</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">binding on the clip</span>
+	</div>
+	<p class="fnt-60 family-sans-l">$129</p>
+</div>
+<div class="card-last-heding">
+	<p class="fnt-22 family-sans-t">Make your LIGHTBOOK</p>
+</div>
+</div>	
+</div>
+<!-- second-card -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="best-seller">
+	<div class="right-triangle"></div>
+	<span class="fnt-20 family-sans-b">BESTSELLER</span>
+	<div class="left-triangle"></div>
+</div>
+<div class="light-book-card" data-aos="slide-up">
+<div class="card-heding">
+	<h6 class="fnt-36 family-sans-r">CLASSICBOOK</h6>
+</div>
+<div class="card-inner-text">
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">30x 21 cm</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">36 pages</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">binding on the spring</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">fabric cover</span>
+	</div>
+	<p class="fnt-60 family-sans-l scnd-p">$239</p>
+</div>
+<div class="card-last-heding">
+	<p class="fnt-22 family-sans-t">Make your CLASSICBOOK</p>
+</div>
+</div>	
+</div>
+<!-- third-card -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="light-book-card" data-aos="fade-down">
+<div class="card-heding">
+	<h6 class="fnt-36 family-sans-r">PREMIUMBOOK</h6>
+</div>
+<div class="card-inner-text">
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">42x 50 cm</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">50 pages</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">hardcover</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">leather cover</span>
+	</div>
+	<div>
+	<img src="assets/checked.png" alt="Checked">
+	<span class="fnt-18 family-sans-r">free shipping</span>
+	</div>
+	<p class="fnt-60 family-sans-l third-p">$759</p>
+</div>
+<div class="card-last-heding">
+	<p class="fnt-22 family-sans-t">Make your PREMIUMBOOK</p>
+</div>
+</div>	
+</div>
+<!-- CARDS END COL-LG-4 -->
+</div>	
+</div>	
+</section>
+<!-- solutions end -->
+<!-- TEstinomials -->
+<section class="container-fluid testinomial" id="testinomial"> 
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="testinomial-hdng">
+	<h5 class="fnt-60 family-sans-xt">TESTINOMIALS</h5>
+</div>
+<div class="testinomial-paragraph">
+<div class="testinomial-dp">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-4">
+	<img src="assets/dp.png" alt="DP">
+</div>
+<div class="col-md-8 col-sm-8 col-8">
+	<h4 class="fnt-30 family-sans-l">JOHN DOE</h4>
+	<p class="fnt-18 family-sans-l">Wedding photographer</p>
+</div>
+</div>	 
+</div>
+	<p class="fnt-18 family-sans-l">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 	
+	</p>
+	<p class="fnt-18 family-sans-l">
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+	Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<span class="bouncing-arrow"><a href="#">Next testinomial <i class="fal fa-long-arrow-right"></i></a></span>
+</div>
+<div class="hero-content">
+	<button class="family-sans-t">
+	<a href="#">MAKE YOUR PHOTOBOOK</a>
+	</button>	
+</div>
+</div>
+</div>	
+</div>	
+</section>
+<!-- ENd testinomial -->
+<!-- last-cards -->
+<section class="container-fluid last-cards" id="terms">
+<div class="container">
+<div class="row">
+<!-- one -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="terms" data-aos="fade-down">
+<div class="term-hdng">
+	<h4 class="fnt-36 family-sans-l">TERMS</h4>
+</div>
+<div class="term-paragraph">
+	<p class="fnt-18 family-sans-r">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	sed do eiusmod tempor.
+	</p>
+	<p class="fnt-18 family-sans-r">
+	Duis aute irure dolor in reprehenderit in voluptate 
+	velit esse cillum dolore eu fugiat nulla.	
+	</p>
+</div>
+</div>	
+</div>
+<!-- two -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="terms" data-aos="slide-up">
+<div class="term-hdng">
+	<h4 class="fnt-36 family-sans-l">PAYMENT</h4>
+</div>
+<div class="term-paragraph">
+	<p class="fnt-18 family-sans-r payment">Payment methods:</p>
+	<ul>
+		<li><a href="#">VISA</a></li>
+		<li><a href="#">MasterCard</a></li>
+		<li><a href="#">PayPal</a></li>
+		<li><a href="#">American Express</a></li>	
+	</ul>
+</div>
+</div>	
+</div>
+<!-- three -->
+<div class="col-lg-4 col-md-4 col-sm-12">
+<div class="terms" data-aos="fade-down">
+<div class="term-hdng">
+	<h4 class="fnt-36 family-sans-l">SHIPPING</h4>
+</div>
+<div class="term-paragraph last">
+	<p class="fnt-18 family-sans-r">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</p>
+	<span class="fnt-18 family-sans-b">Free shipping for <br>PremiumBook</span>
+</div>
+</div>	
+</div>
+<!-- col-lg-4 end -->
+</div>
+<div class="row row-three">
+<div class="col-12 social-butn margin-top">
+<button class="family-sans-t">
+	<a href="#">MAKE YOUR PHOTOBOOK</a>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- last-cards end -->
+<!-- footer -->
+<footer>
+<section class="container-fluid yellow" id="footer">
+<div class="container">
+<div class="row">
+<!-- one -->
+<div class="col-lg-2 col-md-2 col-sm-6 col-6">
+<ul class="footer-list">
+	<li class="fnt-18 family-sans-r"><a href="#">About us</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Careers</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Help</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Press</a></li>	
+</ul>	
+</div>
+<!-- two-->
+<div class="col-lg-2 col-md-2 col-sm-6 col-6">
+<ul class="footer-list">
+	<li class="fnt-18 family-sans-r"><a href="#">Terms</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Payment</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Shipping</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">Contact</a></li>	
+</ul>	
+</div>
+<!-- three -->
+<div class="col-lg-2 col-md-2 col-sm-6 col-6">
+<ul class="footer-list">
+	<li class="fnt-18 family-sans-r"><a href="#">LIGHTBOOK</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">CLASSICBOOK</a></li>
+	<li class="fnt-18 family-sans-r"><a href="#">PREMIUMBOOK</a></li>
+</ul>	
+</div>
+<!-- col-lg-2 end -->
+<div class="col-lg-6  col-md-6 col-sm-6 col-6 footer-right">
+<div class="footer-border"></div>
+<div class="footer-icons">
+	<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+	<a href="#" class="bold"><i class="fas fa-bold"></i></a>
+	<a href="#" class="insta"><i class="fab fa-instagram"></i></a>	
+</div>
+<div class="footer-logo">
+	<a href="#"><img src="assets/footer-logo.png" alt="Logo"></a>
+</div>	
+</div>
+</div>	
+<div class="row">
+<div class="col-12 footer-copyrights">
+	<p class="family-sans-r fnt-14">© 2015 Photobook. All rights reserved</p>
+</div>
+</div>
+</div>	
+</section>	
+</footer>
+<!-- footer end -->
+</main>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+<script>
+function openMenu() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+function closeMenu() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+function onClick() {
+	document.getElementById("header-menu").style.display= "none"
+	if (true) {
+		onClick="home" 
+
+	}
+	}
+</script>
+<script>
+	AOS.init({
+  duration: 1200,
+})
+</script>
+<script>
+	function ahmad() {
+		alert("AHMAD");
+	}
+	alert("HEY Buddy I Created This Page uh Wanna See It Click Ok Then")
+</script>
+</body>
+</html>

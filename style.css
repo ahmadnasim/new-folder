@@ -1,0 +1,1083 @@
+body{margin:0 auto; padding:0;}
+/*hero-main*/
+@font-face{
+  font-family:'PFAgoraSansPro-Bold';
+  src:url('fonts/PFAgoraSansPro-Bold.ttf');
+}
+@font-face{
+  font-family:'PFAgoraSansPro-Light';
+  src:url('fonts/PFAgoraSansPro-Light.ttf');
+}
+@font-face{
+  font-family:'PFAgoraSansPro-Regular';
+  src:url('fonts/PFAgoraSansPro-Regular.ttf');
+  
+}
+@font-face{
+  font-family:'PFAgoraSansPro-Thin';
+  src:url('fonts/PFAgoraSansPro-Thin.ttf');
+  
+}
+@font-face{
+    font-family:'PFAgoraSansPro-XThin';
+  src:url('fonts/PFAgoraSansPro-XThin.ttf');
+
+}
+/*CSS Start classes*/
+.myphotoshot .fnt-24{font-size:24px;}
+.myphotoshot .fnt-22{font-size:22px;}
+.myphotoshot .fnt-60{font-size:60px;}
+.myphotoshot .fnt-18{font-size:18px;}
+.myphotoshot .fnt-20{font-size:20px;}
+.myphotoshot .fnt-16{font-size:16px;}
+.myphotoshot .fnt-14{font-size:14px;}
+.myphotoshot .fnt-36{font-size:36px;}
+.myphotoshot .fnt-30{font-size:30px;}
+.myphotoshot .family-sans-b{font-family:'PFAgoraSansPro-Bold'}
+.myphotoshot .family-sans-l{font-family:'PFAgoraSansPro-Light'}
+.myphotoshot .family-sans-r{font-family:'PFAgoraSansPro-Regular'}
+.myphotoshot .family-sans-t{font-family:'PFAgoraSansPro-Thin'}
+.myphotoshot .family-sans-xt{font-family:'PFAgoraSansPro-XThin'}
+/*Hero Inner*/
+.myphotoshot .hero-main{
+  background-image:url('assets/main-bg.png');
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.myphotoshot .hero-content{
+  padding:50px 0px 200px 0px; 
+  text-align: center;
+}
+.myphotoshot .hero-content h1{
+  color:rgb(0, 0, 0,100%);
+}
+.myphotoshot .hero-content h1:first-letter{
+  font-size: 70px;
+  font-family:'PFAgoraSansPro-XThin';
+  color:rgb(0, 0, 0,70%);
+}
+.myphotoshot .hero-content p{
+  margin-bottom:60px;
+}
+.myphotoshot .hero-content button{
+  width:370px; 
+  height:60px; 
+  border:1px solid rgb(0, 0, 0); 
+  transition:all 0.3s; 
+  border-radius:10px;
+  position:relative; 
+  overflow:hidden; 
+  background:transparent; 
+  font-size:26px; 
+  z-index:2;
+}
+.myphotoshot .hero-content button a{
+  text-decoration:none; 
+  color:rgb(33, 33, 33); 
+  transition:all 0.3s; 
+  position:relative; 
+  z-index:1;
+}
+.myphotoshot .hero-content button:hover a{
+  color:rgb(255, 255, 255);
+}
+.myphotoshot .hero-content button:before{
+  content:' '; 
+  position:absolute; 
+  z-index:1; 
+  transition:all 0.3s; 
+  width:0%;
+  top:0; 
+  left:0; 
+  height:100%; 
+  opacity:0; 
+  background-color:rgb(104, 91, 114); 
+  color:rgb(255, 255, 255); 
+  overflow:hidden; 
+  border-radius:10px;
+}
+.myphotoshot .hero-content button:hover:before{
+  transition: all 0.3s ease-in-out; 
+  opacity: 1; 
+  width: 100%; 
+  border-radius:10px;
+}
+.myphotoshot .hero-content button a:hover:before{
+  color:rgb(255, 255, 255);
+}
+.myphotoshot .hero-content button:hover{
+  border:none; 
+  border-radius:10px;
+}
+/*hero-end*/
+/*header-navbar*/
+/*menu-bar*/
+.myphotoshot .openBtn{
+  border:none; 
+  font-size:20px; 
+  background:none; 
+  cursor: pointer;
+}
+.myphotoshot .overlay{
+  height:100%; 
+  width:100%; 
+  display:none;
+  position:fixed; 
+  z-index:9999; 
+  top:0; 
+  left:0; 
+  background-color:rgb(0 0 0 / 96%)
+}
+.myphotoshot .overlay-content{
+  position:relative; 
+  top:30%; 
+  width:100%; 
+  text-align:center;
+  margin-top:30px; 
+  margin:0 auto;
+}
+.myphotoshot .overlay .closebtn{
+  position:absolute; 
+  top:20px; 
+  right:45px;
+  font-size:50px; 
+  cursor:pointer; 
+  color:#EEEE;
+}
+.myphotoshot .overlay .closebtn:hover{
+  color: #FFF;
+}
+.myphotoshot .overlay-content ul{
+  padding-left:0px;
+}
+.myphotoshot .overlay-content ul li{
+  list-style-type:none;
+}
+.myphotoshot .overlay-content ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-size:32px;
+  font-family:'PFAgoraSansPro-Bold';
+}
+.myphotoshot .overlay-content ul li a:hover{
+  color:rgb(255, 210, 0);
+  transition:all 0.3s;
+}
+.myphotoshot .overlay button{
+  float:left; 
+  width:4%; 
+  padding:14px; 
+  background:transparent;
+  font-size:18px; 
+  border:none; 
+  cursor:pointer; 
+  color:#fff; 
+  border-bottom:1px solid;
+} 
+.myphotoshot .overlay button:hover{
+  background:transparent;
+}
+/*end*/
+.myphotoshot .left-header{
+  padding-top:8px;
+}
+.myphotoshot .side-header{
+  float:left; 
+  width:33px; 
+  height:33px; 
+  margin:10px 0px;  
+  display:inline-block;
+  text-align: center;
+  border-radius: 100%;
+  padding:3px 5px;
+}
+.myphotoshot .icon-bar{
+  float:left; 
+  background-color:rgb(103, 100, 101); 
+  width:100%; 
+  height:2px; 
+  border-radius:0px; 
+  margin-top:1px;
+  margin-bottom:3px;
+}
+.myphotoshot .side-header:hover{
+  cursor:pointer;
+  transform:rotateZ(360deg);
+  background:rgb(0, 0, 0,10%);
+  transition: all 0.3s ease 0s;
+  border:none;
+}
+.myphotoshot .nav-logo{
+  float: left;
+  display: inline-block;
+  margin: 11px 40px;
+}
+.myphotoshot .head-number{
+  float:left;
+  display:inline-block;
+  margin: 12px 0px 12px 250px;
+  background:rgb(255, 210, 0);
+  color:rgb(63, 57, 29);
+  transition:all 0.3s;
+  border-radius:8px;
+  width:200px;
+  height:40px;
+  text-align:center;
+  padding: 5px;
+}
+.myphotoshot .head-number a{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+  border-bottom:1px dashed rgb(63, 57, 29);
+}
+.myphotoshot .head-number a:hover{
+  color:rgb(255, 255, 255);
+  transition:all 0.3s;
+  border-bottom:1px dashed rgb(255, 255, 255);
+}
+.myphotoshot .right-header img{
+  float:right;
+  margin: 17px 0px 17px 60px;
+  cursor:pointer;
+}
+/*header-end*/
+/*icons-sec*/
+.myphotoshot .download-icon{
+  float:left;
+  display:inline-block;
+  margin-left:118px;
+  padding-top:20px;
+}
+.myphotoshot .download-icon p{
+  color:rgb(63, 63, 63);
+  transition: all 0.3s;
+  text-align:center;
+  margin-bottom:0px;
+  line-height:28px;
+  transition: all 0.3s;
+}
+.myphotoshot .download-icon p:hover{
+  cursor:pointer;
+  transition: all 0.2s;
+  color:rgb(255, 210, 0);
+}
+.myphotoshot .dwnld-icn{
+  border-radius:100%;
+  background:rgb(255, 255, 255);
+  text-align: center;
+  width:130px;
+  height:130px;
+  line-height:125px;
+  border:4px solid rgb(255, 210, 0);
+  margin-bottom:25px;
+}
+.myphotoshot .dwnld-three{
+  line-height: 100px;
+}
+.myphotoshot .hr-dashed{
+  position:relative;
+  padding:50px 16px 80px;
+}
+.myphotoshot .hr-dashed hr{
+  width:61%;
+  opacity: 1;
+  z-index:-1;
+  border-top:6px dashed rgb(255,210,0);
+  position:absolute;
+  top:118px;
+  left: 242px;
+  background:none;
+}
+.myphotoshot .dwnld-icn:hover{
+  cursor:pointer;
+}
+.myphotoshot .dwnld-icn:hover img{
+  transform: rotateZ(360deg);
+  transition: all 0.3 ease;
+  transition-duration: 0.3s;
+}
+/*end*/
+/*advantage*/
+.myphotoshot .light-bg{
+  background:rgb(243, 240, 231);
+  padding:50px 0px;
+}
+.myphotoshot .light-bg h2{
+  color:rgb(15, 15, 14); 
+  text-align:center;
+  margin-bottom:55px;
+}
+.myphotoshot .light-bg h2:first-letter{
+  font-size: 70px;
+  font-family:'PFAgoraSansPro-XThin';
+  color:rgb(0, 0, 0,70%);
+}
+.myphotoshot .col-lg-4{
+  text-align:center;
+}
+.myphotoshot .circle-img{
+  position:relative;
+  border-radius:50%;
+}
+.myphotoshot .circle-img a{color:#000; text-decoration:none;}
+.myphotoshot .circle-img .img{
+  opacity:1;
+  visibility:visible;
+  transform:scale(1) rotate(0);
+  transition:all 0.32s ease-in-out;
+}
+.myphotoshot .circle-img .img{
+  position:relative;
+  border-radius:50%;
+}
+.myphotoshot .circle-img .img:before{
+  content:'';
+  position:absolute;
+  width:80%;
+  height:100%;
+  z-index:1;
+  border-radius:50%;
+  box-shadow:inset 0 0 0 14px rgb(243, 240, 231, 70%), 0 1px 2px rgb(0 0 1 / 30%);
+  transition:all 0.32s ease-in-out;
+}
+.myphotoshot .circle-img .img img{
+  position:relative;
+  width:80%;
+  height:100%;
+}
+.myphotoshot .circle-img .back-info{
+  background:rgb(0, 0, 0);
+  opacity:0;
+  visibility:hidden;
+  transform:scale(0.5) rotate(-720deg);
+  transition:all 0.32s ease-in-out 0.3s;
+  width:80%;
+  height:100%;
+  margin:0 auto;
+}
+.myphotoshot .back-info h3{
+  position:relative;
+  color:rgb(255, 255, 255);
+  padding-top:52px;
+  border-bottom:1px solid;
+  padding-bottom:14px;
+  max-width:88%;
+  margin:0 auto;
+}
+.myphotoshot .back-info p{
+  position:relative;
+  color:rgb(255, 255, 255);
+  margin:30px 0px 0px;
+  padding:0px 30px;
+}
+.myphotoshot .back-info{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  text-align:center;
+  border-radius:50%;
+  backface-visibility:hidden;
+}
+.myphotoshot .circle-img a:hover .img{
+  opacity:0;
+  visibility:hidden;
+  transform: scale(0.5) rotate(720deg);
+}
+.myphotoshot .circle-img a:hover .back-info{
+  opacity:1;
+  visibility:visible;
+  transform: scale(1) rotate(0);
+}
+.myphotoshot .social-butn{
+  text-align:center;
+}
+.myphotoshot .social-butn button{
+  width:370px; 
+  height:60px; 
+  border:1px solid rgb(225, 26, 39); 
+  transition:all 0.3s; 
+  border-radius:10px;
+  position:relative; 
+  overflow:hidden; 
+  background:rgb(225, 26, 39); 
+  font-size:26px; 
+  z-index:2;
+}
+.myphotoshot .social-butn button a{
+  text-decoration:none; 
+  color:rgb(255, 255, 255); 
+  transition:all 0.3s; 
+  position:relative; 
+  z-index:1;
+}
+.myphotoshot .social-butn button:hover a{
+  color:rgb(255, 255, 255);
+}
+.myphotoshot .social-butn button:before{
+  content:' '; 
+  position:absolute; 
+  z-index:1; 
+  transition:all 0.3s; 
+  width:0%;
+  top:0; 
+  left:0; 
+  height:100%; 
+  opacity:0; 
+  background-color:rgb(162, 117, 120); 
+  color:rgb(255, 255, 255); 
+  overflow:hidden; 
+  border-radius:10px;
+}
+.myphotoshot .social-butn button:hover:before{
+  transition: all 0.3s; 
+  opacity: 1; 
+  width: 100%; 
+  border-radius:10px;
+}
+.myphotoshot .social-butn button a:hover:before{
+  color:rgb(255, 255, 255);
+}
+.myphotoshot .social-butn button:hover{
+  border:none; 
+  border-radius:10px;
+}
+.myphotoshot .social-hdng{
+  padding:24px 35px;
+}
+.myphotoshot .social-hdng p{
+  line-height:20px;
+}
+.myphotoshot .social-hdng h3{
+  margin-bottom: 18px;
+}
+.myphotoshot .social-hdng h3:hover{
+  cursor:pointer;
+  color:rgb(225, 26, 39);
+  transition:all 0.3s;
+  opacity:1;
+}
+.myphotoshot .width{
+  max-width:278px;
+  margin:0 auto;
+}
+/*end*/
+/*solutions card*/
+.myphotoshot .solution-card{
+  padding:70px 0px 100px 0px;
+}
+.myphotoshot .best-seller{
+  border: 1px solid rgb(255, 210, 0);
+  height: 30px;
+  max-width:185px;
+  margin: 0 auto;
+  background: rgb(255,210,0);
+  margin-top:-30px;
+  position:relative;
+  transition:all 0.3s;
+}
+.myphotoshot .left-triangle{
+    width: 0;
+    height: 0;
+    border-bottom:31px solid rgb(255,210,0);
+    border-right:25px solid transparent;
+    position:absolute;
+    right:-26px;
+    top:-1px;
+    z-index:-1; 
+}
+.myphotoshot .right-triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid rgb(255,210,0);
+    border-left: 24px solid transparent;
+    position: absolute;
+    left: -25px;
+    z-index: -1;
+}
+.myphotoshot .best-seller span{
+  border:none;
+  color:rgb(225, 26, 39);
+}
+.myphotoshot .solution-card h5{
+  text-align:center;
+  margin-bottom:55px;
+  transition:all 0.3s;
+}
+.myphotoshot .solution-card h5:first-letter{
+  font-size:70px;
+  font-family:'PFAgoraSansPro-XThin';
+  color:rgb(0, 0, 0,70%);
+}
+.myphotoshot .light-book-card{
+  max-width:320px;
+  margin:0 auto;
+  transition:all 0.3s;
+}
+.myphotoshot .card-heding{
+  transition:all 0.3s;
+  border:1px solid rgb(255,210,0);
+  background:rgb(255,210,0);
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  padding:20px;
+  transition:all 0.3s;
+}
+.myphotoshot .card-heding h6{
+  margin-bottom:0px;
+  letter-spacing:1px;
+  transition:all 0.3s;
+}
+.myphotoshot .card-heding h6:first-letter{
+  font-size:45px;
+  color:rgb(0, 0, 0,70%);
+  font-family:'PFAgoraSansPro-Regular';
+}
+.myphotoshot .card-heding:hover{
+  cursor:pointer;
+}
+.myphotoshot .card-heding:hover h6{
+  transition:all 0.3s;
+  cursor:pointer;
+  transform: rotateX(360deg);
+  color: rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .card-heding:hover h6:first-letter{
+  transition:all 0.3s;
+  cursor:pointer;
+  transform: rotateX(360deg);
+  color: rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .card-inner-text{
+  border:4px solid rgb(255,210,0);
+  padding:22px 22px 0px 22px;
+}
+.myphotoshot .card-inner-text div{
+  text-align:left;
+  padding-bottom:6px;
+}
+.myphotoshot .card-inner-text div span{
+  border:none;
+  padding-left:8px;
+}
+.myphotoshot .card-inner-text p{
+  line-height:47px;
+  margin:75px 0px 20px 0px;
+  transition:all 0.3s; 
+}
+.myphotoshot .card-inner-text:hover{
+  cursor:pointer;
+  transition:all 0.3s;
+}
+.myphotoshot .card-inner-text:hover p{
+  transition:all 0.3s;
+  transform: rotateX(360deg);
+  color: rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .card-inner-text:hover span{
+  transition:all 0.3s;
+  color: rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Bold';
+}
+.myphotoshot .card-inner-text .scnd-p{
+  margin-top:41px;
+}
+.myphotoshot .card-inner-text .third-p{
+  margin-top:7px;
+}
+.myphotoshot .card-last-heding{
+  border:2px solid rgb(255,210,0);
+  background:rgb(255,210,0);
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  transition:all 0.3s;
+  padding:4px;
+}
+.myphotoshot .card-last-heding:hover{
+  cursor:pointer;
+}
+.myphotoshot .card-last-heding:hover p{
+  transition:all 0.3s;
+  transform: rotateX(360deg);
+  color: rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .card-last-heding p{
+  margin-bottom:0px;
+}
+/*solution card end*/
+/*Testinomials*/
+.myphotoshot .testinomial .hero-content button:before{
+  background:rgb(183, 87, 84);
+}
+.myphotoshot .testinomial .hero-content button{
+  margin-top:80px;
+  margin-bottom:40px;
+}
+.myphotoshot .testinomial{
+  background-image: url("assets/bg-book.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: right center;
+}
+.myphotoshot .testinomial .hero-content{
+  padding:0px;
+  max-width:540px;
+}
+.myphotoshot .testinomial-hdng{
+  padding-top:40px;
+}
+.myphotoshot .testinomial-hdng h5:first-letter{
+  font-size:70px;
+  color:rgb(0, 0, 0,70%);
+  font-family:'PFAgoraSansPro-XThin';
+}
+.myphotoshot .testinomial{
+  padding:0px 0px;
+}
+.myphotoshot .testinomial-dp{
+  margin-bottom:30px;
+}
+.myphotoshot .testinomial-dp h4{
+  margin-bottom:5px;
+  line-height:28px;
+  padding-top:53px;
+}
+.myphotoshot .testinomial-paragraph{
+  float:left;
+  max-width:526px;
+}
+.myphotoshot .testinomial-paragraph p{
+  color:rgb(15, 14, 14);
+  line-height:22px;
+  margin-bottom:8px;
+}
+.myphotoshot .testinomial-paragraph span{
+  border:none;
+  float:right;
+  position:relative;
+  margin-right:40px;
+  margin-top:30px;
+}
+.myphotoshot .testinomial-paragraph a{
+  text-decoration:none;
+  color:rgb(15, 14, 14);
+}
+.myphotoshot .testinomial-paragraph a:hover{
+  color:rgb(183, 87, 84);
+  cursor:pointer;
+  transition:all 0.3s;
+}
+.myphotoshot .testinomial-paragraph span i{
+  position: absolute;
+  font-size: 21px;
+  line-height: 12px;
+  top: 7px;
+  right: -30px;
+}
+.myphotoshot .bouncing-arrow:hover a i{
+  animation: bounce 2s infinite;
+}
+@keyframes bounce{0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+  40% {transform: translateX(-10px);}
+  60% {transform: translateX(-5px);}
+}
+/*testinomial end*/
+/*Last-cards*/
+.myphotoshot .last-cards{
+  padding: 90px 0px 100px;
+}
+.myphotoshot .last-cards .col-lg-4{
+  padding:0px 30px;
+}
+.myphotoshot .term-hdng{
+  max-width:360px;
+  height:60px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  background:rgb(255, 210, 0);
+  transition: all 0.3s;
+  text-align:center;
+  margin:0 auto;
+  margin-bottom:6px;
+}
+.myphotoshot .term-hdng h4{
+  color:rgb(0, 0, 0);
+  margin-bottom: 0px;
+  line-height: 60px;
+  transition: all 0.3s;
+}
+.myphotoshot .term-hdng h4:first-letter{
+  font-size:45px;
+  font-family:'PFAgoraSansPro-Light';
+  color:rgb(0, 0, 0);
+}
+.myphotoshot .term-hdng:hover{
+  cursor:pointer;
+  transition:all 0.3s;
+}
+.myphotoshot .term-hdng:hover h4{
+  cursor:pointer;
+  transition:all 0.3s ease-in-out;
+  transform:rotateX(360deg);
+  color:rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .term-hdng:hover h4:first-letter{
+   cursor:pointer;
+  transition:all 0.3s ease-in-out;
+  transform:rotateX(360deg);
+  color:rgb(225, 26, 39);
+  transition-duration: 0.4s;
+  font-family: 'PFAgoraSansPro-Regular';
+}
+.myphotoshot .term-paragraph{
+  max-width:360px;
+  background: rgb(247,240,230);
+  transition: all 0.3s;
+  text-align:left;
+  padding:12px 36px 45px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.myphotoshot .last{
+  padding-bottom:41px;
+}
+.myphotoshot .term-paragraph span{
+  color:rgb(225, 26, 39);
+  border-bottom:none;
+}
+.myphotoshot .term-paragraph P{
+  color:rgb(31, 30, 29);
+  margin-bottom:6px;
+  line-height: 22px;
+}
+.myphotoshot .payment{
+  margin-bottom:4px;
+}  
+.myphotoshot .term-paragraph ul li a{
+  text-decoration:none;
+  color:rgb(31, 30, 29);
+}
+.myphotoshot .term-paragraph ul li{
+  margin-bottom:8px;
+}
+.myphotoshot .term-paragraph ul{
+  padding-left:25px;
+  margin-bottom:17px;
+}
+.myphotoshot .last-cards .margin-top{
+  margin-top:70px;
+}
+/*cards end*/
+/*footer*/
+.myphotoshot .yellow{
+  background:rgb(255, 210, 0);
+  transition: all 0.3s;
+  padding: 50px 0px 0px;
+}
+.myphotoshot .footer-copyrights{
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+.myphotoshot .footer-list{
+  padding-left:0px;
+  transition:all 0.3s;
+  padding-top:15px;
+  border-top:1px solid rgb(0, 0, 0);
+}
+.myphotoshot .footer-list li{
+  list-style-type:none;
+  margin-bottom:6px;
+}
+.myphotoshot .footer-list li a{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+}
+.myphotoshot .footer-list li a:hover{
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  transition:all 0.2s;
+}
+.myphotoshot .col-lg-2{
+  padding-right:30px;
+  margin-right:20px;
+}
+.myphotoshot .footer-right{
+  width:44%;
+}
+.myphotoshot .footer-icons{
+  float:right;
+  position:relative;
+  margin-top:25px;
+}
+.myphotoshot .footer-icons a{
+  color:rgb(255, 210, 0);
+}
+.myphotoshot .footer-icons i{
+  width:20px;
+  height:20px;
+  background: rgb(0,0,0);
+  border-radius:3px;
+  text-align:center;
+  font-size:18px;
+  margin-left:20px;
+}
+.myphotoshot .footer-icons i:hover{
+  transition:all 0.3s;
+  background:rgb(255, 255, 255);
+}
+.myphotoshot .facebook i:before{
+  content: "\f39e";
+  position: absolute;
+  left: 26px;
+  top: 2px;
+}
+.myphotoshot .bold i{
+  font-size:14px;
+}
+.myphotoshot .bold i:before{
+  content: "\f032";
+  position: absolute;
+  top: 3px;
+  right: 49px;
+}
+.myphotoshot .insta i:before{
+  content: "\f16d";
+  position: absolute;
+  left: 111px;
+}
+.myphotoshot .footer-logo{
+  float:right;
+  width:100%;
+  margin-top:40px;  
+  text-align:right;
+}
+/*.myphotoshot .footer-border{
+  border-top:1px solid #000;
+  max-width:157px;
+  margin:0 auto;
+  margin-left:326px;
+}*/
+/*end*/
+/*HTML CSS End*/
+/*MEDIA QUERIES START*/
+@media screen and (min-width:992px) and (max-width:1199px){
+  .myphotoshot .head-number{margin:12px 0px 12px 150px;}
+  .myphotoshot .hero-content{padding:50px 0px 144px 0px;}
+  .myphotoshot .hr-dashed{padding:35px 0px;}
+  .myphotoshot .download-icon{margin-left:95px;}
+  .myphotoshot .hr-dashed hr{left:163px; width:65%;}
+  .myphotoshot .social-hdng{padding:24px 7px;}
+  .myphotoshot .light-book-card{max-width:280px;}
+  .myphotoshot .fnt-36{font-size:32px;}
+  .myphotoshot .solution-card h5{margin-bottom:70px;}
+  .myphotoshot .testinomial{background-position:center;}
+  .myphotoshot .testinomial-paragraph{max-width:438px;}
+  .myphotoshot .testinomial .hero-content{max-width:460px;}
+  .myphotoshot .testinomial-dp img{max-width:100%;}
+  .myphotoshot .testinomial-paragraph p{font-size:15px;}
+  .myphotoshot .term-paragraph{padding:12px 20px;}
+  .myphotoshot .last{padding-bottom:29px;}
+  .myphotoshot .last-cards{padding:90px 0px;}
+  .myphotoshot .col-lg-2{padding-right:20px; margin-right:4px;}
+  .myphotoshot .circle-img .img img{width:100%;}
+  .myphotoshot .circle-img .back-info{width:100%;}
+  .myphotoshot .circle-img .img:before{width:100%;}
+  .myphotoshot .back-info h3{font-size:22px; padding-top:60px;}
+  .myphotoshot .back-info p{font-size:14px; margin:40px 0px 0px;}
+}
+@media screen and (min-width:768px) and (max-width:991.9px){
+  .myphotoshot .head-number{margin: 12px 0px 12px 72px; width:170px;}
+  .myphotoshot .fnt-60{font-size:40px;}
+  .myphotoshot .hero-content h1{line-height:33px; margin-bottom:2px;}
+  .myphotoshot .hero-content p{margin-bottom:26px;}
+  .myphotoshot .hero-content{padding:50px 0px 150px 0px;}
+  .myphotoshot .dwnld-icn{width:120px; height:120px; line-height:110px;}
+  .myphotoshot .dwnld-three{line-height:85px;}
+  .myphotoshot .download-icon{margin-left:59px;}
+  .myphotoshot .hr-dashed hr{width:72%; top:96px; left:172px;}
+  .myphotoshot .hr-dashed{padding:35px 0px;}
+  .myphotoshot .circle-img img{max-width:100%;}
+  .myphotoshot .circle-img .img:before{width:100%;}
+  .myphotoshot .circle-img .img img{width:100%;}
+  .myphotoshot .circle-img .back-info{width:100%;}
+  .myphotoshot .back-info h3{font-size:18px; padding-top:48px;}
+  .myphotoshot .back-info p{font-size:12px; margin:17px 0px 0px; padding:0px 20px;}
+  .myphotoshot .social-hdng{padding:24px 0px;}
+  .myphotoshot .social-hdng h3{font-size:18px; margin-bottom:12px;}
+  .myphotoshot .social-hdng p{line-height:18px; font-size:13px;}
+  .myphotoshot .light-book-card{max-width:220px;}
+  .myphotoshot .card-heding h6{font-size:24px;}
+  .myphotoshot .card-inner-text{padding:14px 5px 0px 7px;}
+  .myphotoshot .card-inner-text span{font-size:16px;}
+  .myphotoshot .card-last-heding p{font-size:17px;}
+  .myphotoshot .best-seller span{font-size:17px;}
+  .myphotoshot .best-seller{max-width:122px;}
+  .myphotoshot .card-inner-text p{margin:72px 0px 20px 0px;}
+  .myphotoshot .card-inner-text .scnd-p{margin-top:41px;}
+  .myphotoshot .card-inner-text .third-p{margin-top:10px;}
+  .myphotoshot .testinomial-hdng{padding-top:20px;}
+  .myphotoshot .testinomial-dp{margin-bottom:15px;}
+  .myphotoshot .testinomial-dp img{max-width:100%;}
+  .myphotoshot .testinomial-dp h4{padding-top:32px; font-size:26px;}
+  .myphotoshot .testinomial{background-position: center;}
+  .myphotoshot .testinomial-paragraph{max-width:425px;}
+  .myphotoshot .testinomial-paragraph p{font-size:15px;}
+  .myphotoshot .testinomial-paragraph span{margin-top:4px;}
+  .myphotoshot .testinomial .hero-content{padding:0px; max-width:415px;}
+  .myphotoshot .testinomial .hero-content button{max-width:100%;}
+  .myphotoshot .last-cards .col-lg-4{padding:0px 12px;}
+  .myphotoshot .term-paragraph{padding:12px 12px 22px;}
+  .myphotoshot .term-hdng h4{font-size:30px;}
+  .myphotoshot .term-paragraph p{font-size:15px;}
+  .myphotoshot .term-paragraph ul{margin-bottom:19px;}
+  .myphotoshot .last{padding-bottom:18px;}
+  .myphotoshot .card-heding{padding:10px;}
+  .myphotoshot .col-lg-2{padding-right:12px; margin-right:8px;}
+  .myphotoshot .footer-list li{font-size:14px;}
+}
+@media screen and (min-width:576px) and (max-width:767.9px){
+  .myphotoshot .nav-logo{margin:11px 15px;}
+  .myphotoshot .hero-content h1:first-letter{font-size:34px;}
+  .myphotoshot .nav-logo img{max-width:83%;}
+  .myphotoshot .head-number{margin:12px 0px 12px 25px; width:140px;}
+  .myphotoshot .head-number span{font-size:13px;}
+  .myphotoshot .right-header img{margin:17px 0px 17px 14px;}
+  .myphotoshot .hero-content{padding:30px 0px 80px;}
+  .myphotoshot .hero-content button{width:80%;}
+  .myphotoshot .hero-content p{margin-bottom:20px;}
+  .myphotoshot .fnt-60{font-size:36px;}
+  .myphotoshot .hr-dashed{padding:35px 0px;}
+  .myphotoshot .download-icon{margin-left:95px;}
+  .myphotoshot .hr-dashed hr{display:none;}
+  .myphotoshot .social-hdng{padding:30px 0px;}
+  .myphotoshot .width{max-width:100%;}
+  .myphotoshot .light-book-card{max-width:380px; margin-bottom:50px;}
+  .myphotoshot .best-seller{max-width:250px; margin-top:0px;}
+  .myphotoshot .card-inner-text{padding:22px 30px 0px 30px;}
+  .myphotoshot .testinomial-dp img{width:100%;}
+  .myphotoshot .testinomial-dp h4{padding-top:15px; font-size:25px;}
+  .myphotoshot .testinomial-paragraph p{font-size:15px;}
+  .myphotoshot .testinomial-paragraph{max-width:316px;}
+  .myphotoshot .testinomial .hero-content{max-width:365px;}
+  .myphotoshot .testinomial{background-position:center;}
+  .myphotoshot .term-hdng{max-width:400px;}
+  .myphotoshot .term-paragraph{max-width:400px; margin:0 auto; height:200px;}
+  .myphotoshot .term-paragraph P{margin-bottom:10px; line-height:26px;}
+  .myphotoshot .terms{margin-bottom:35px;}
+  .myphotoshot .social-butn button{width:80%;}
+  .myphotoshot .solution-card{padding:80px 0px;}
+  .myphotoshot .last-cards .margin-top{margin-top:40px;}
+  .myphotoshot .last-cards{padding:80px 0px;}
+  .myphotoshot .col-lg-2{margin-right:0px; padding-right:12px;}
+  .myphotoshot .footer-icons{margin-top:12px;}
+  .myphotoshot .footer-logo{margin-top:30px;}
+  .myphotoshot .footer-copyrights{margin:20px 0px;}
+  .myphotoshot .back-info h3{font-size:26px; padding-top:95px;}
+  .myphotoshot .back-info p{font-size:18px; margin:70px 0px 0px;}
+}
+@media screen and (min-width:470px) and (max-width:575.9px){
+  .myphotoshot .nav-logo{margin: 11px 0px 11px 50px;}
+  .myphotoshot .nav-logo img{max-width:83%;}
+  .myphotoshot .head-number{margin:12px 0px 12px 0px; width:175px;}
+  .myphotoshot .head-number span{font-size:13px;}
+  .myphotoshot .right-header img{margin:17px 25px 17px 0px;}
+  .myphotoshot .hero-content{padding:30px 0px 42px;}
+  .myphotoshot .hero-content button{width:100%; height:54px; font-size:33px;}
+  .myphotoshot .hero-content p{margin-bottom:25px; line-height:22px; font-size:20px;}
+  .myphotoshot .fnt-60{font-size:31px; line-height:30px;}
+  .myphotoshot .hr-dashed hr{display:none;}
+  .myphotoshot .hr-dashed{text-align:center; padding:35px 0px;}
+  .myphotoshot .download-icon{float:none; margin-left:0px; width:100%;}
+  .myphotoshot .dwnld-icn{width:130px; margin:0 auto;}
+  .myphotoshot .download-icon p{margin-top:20px;}
+  .myphotoshot .social-hdng{padding:30px 0px;}
+  .myphotoshot .solution-card{padding:80px 0px;}
+  .myphotoshot .width{max-width:100%;}
+  .myphotoshot .testinomial-dp img{width:100%;}
+  .myphotoshot .testinomial{background-position:left top;}
+  .myphotoshot .social-butn button{width:100%; height:54px; font-size:33px;}
+  .myphotoshot .solution-card h5{font-size:40px;}
+  .myphotoshot .light-book-card{max-width:400px; margin-bottom:50px;}
+  .myphotoshot .best-seller{max-width:210px; margin-top:0px;}
+  .myphotoshot .card-inner-text{padding:22px 30px 0px 30px;}
+  .myphotoshot .card-inner-text p{font-size:44px;}
+  .myphotoshot .testinomial-hdng{text-align:center;}
+  .myphotoshot .testinomial .hero-content{padding:110px 0px 50px 0px;}
+  .myphotoshot .testinomial-book img{width:100%;}
+  .myphotoshot .term-hdng{max-width:400px;}
+  .myphotoshot .term-paragraph{max-width:400px; margin:0 auto; height:240px;}
+  .myphotoshot .terms{margin-bottom:35px;}
+  .myphotoshot .social-butn button{width:100%; height:54px; font-size:33px;}
+  .myphotoshot .last-cards .margin-top{margin-top:40px;}
+  .myphotoshot .last-cards{padding:80px 0px;}
+  .myphotoshot .col-lg-2{margin-right:0px; padding-right:12px;}
+  .myphotoshot .footer-icons{margin-top:12px;}
+  .myphotoshot .footer-logo{margin-top:30px;}
+  .myphotoshot .footer-copyrights{margin:20px 0px;}
+  .myphotoshot .back-info h3{font-size:26px; padding-top:115px;}
+  .myphotoshot .back-info p{font-size:18px; margin:45px 0px 0px;}
+}
+@media screen and (min-width:320px) and (max-width:469.9px){
+  .myphotoshot .nav-logo{margin: 11px 0px 11px 25px;}
+  .myphotoshot .head-number{margin:12px 0px 12px 0px;}
+  .myphotoshot .right-header img{margin: 17px 0px;}
+  .myphotoshot .hero-content{padding:30px 0px 42px;}
+  .myphotoshot .hero-content h1{line-height:28px; font-size:28px;}
+  .myphotoshot .hero-content h1:first-letter{font-size:36px;}
+  .myphotoshot .hero-content p{margin-bottom:10px; font-size:20px;}
+  .myphotoshot .hero-content button{width:100%; height:54px; font-size:22px;}
+  .myphotoshot .hr-dashed hr{display:none;}
+  .myphotoshot .fnt-60{font-size:35px; line-height:30px;}
+  .myphotoshot .hr-dashed{text-align:center; padding:35px 0px;}
+  .myphotoshot .download-icon{float:none; margin-left:0px; width:100%;}
+  .myphotoshot .dwnld-icn{width:130px; margin:0 auto;}
+  .myphotoshot .download-icon p{margin-top:20px;}
+  .myphotoshot .social-hdng{padding:30px 0px;}
+  .myphotoshot .width{max-width:100%;}
+  .myphotoshot .testinomial-dp h4{padding-top:28px; font-size:22px; line-height:18px;}
+  .myphotoshot .testinomial-paragraph p{font-size:15px;}
+  .myphotoshot .testinomial-dp img{width:100%;}
+  .myphotoshot .social-butn button{width:100%; height:54px; font-size:22px;}
+  .myphotoshot .solution-card h5{font-size:32px;}
+  .myphotoshot .light-book-card{max-width:400px; margin-bottom:50px;}
+  .myphotoshot .best-seller{max-width:210px; margin-top:0px;}
+  .myphotoshot .card-inner-text{padding:22px 30px 0px 30px;}
+  .myphotoshot .card-inner-text p{font-size:44px;}
+  .myphotoshot .testinomial-hdng{text-align:center;}
+  .myphotoshot .testinomial{background-position:left top;}
+  .myphotoshot .term-hdng{max-width:400px;}
+  .myphotoshot .term-paragraph{padding: 12px 15px;}
+  .myphotoshot .term-paragraph{max-width:400px; margin:0 auto; height:240px;}
+  .myphotoshot .terms{margin-bottom:35px;}
+  .myphotoshot .last-cards .margin-top{margin-top:40px;}
+  .myphotoshot .last-cards{padding:80px 0px;}
+  .myphotoshot .col-lg-2{margin-right:0px; padding-right:12px;}
+  .myphotoshot .footer-icons{margin-top:12px;}
+  .myphotoshot .footer-icons i{margin-left:15px;}
+  .myphotoshot .facebook i:before{left:21px;}
+  .myphotoshot .bold i:before{right:44px;}
+  .myphotoshot .insta i:before{left:96px;}
+  .myphotoshot .footer-logo{margin-top:30px;}
+  .myphotoshot .footer-copyrights{margin:20px 0px;}
+  .myphotoshot .back-info h3{font-size:20px; padding-top:60px;}
+  .myphotoshot .back-info p{font-size:12px; margin:15px 0px 0px;}
+}
+
+
+
+
+
+
