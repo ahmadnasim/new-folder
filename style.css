@@ -183,7 +183,6 @@ body{margin:0 auto; padding:0;}
   padding-top:8px;
 }
 .myphotoshot .side-header{
-  float:left; 
   width:33px; 
   height:33px; 
   margin:10px 0px;  
@@ -209,12 +208,10 @@ body{margin:0 auto; padding:0;}
   border:none;
 }
 .myphotoshot .nav-logo{
-  float: left;
   display: inline-block;
   margin: 11px 40px;
 }
 .myphotoshot .head-number{
-  float:left;
   display:inline-block;
   margin: 12px 0px 12px 250px;
   background:rgb(255, 210, 0);
@@ -244,7 +241,6 @@ body{margin:0 auto; padding:0;}
 /*header-end*/
 /*icons-sec*/
 .myphotoshot .download-icon{
-  float:left;
   display:inline-block;
   margin-left:118px;
   padding-top:20px;
@@ -1075,10 +1071,3 @@ body{margin:0 auto; padding:0;}
   .myphotoshot .back-info h3{font-size:20px; padding-top:60px;}
   .myphotoshot .back-info p{font-size:12px; margin:15px 0px 0px;}
 }
-
-
-
-
-
-
-/* dsjkfhsdjkfhkjsdhfkjd */
